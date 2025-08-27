@@ -37,3 +37,9 @@ Thumbs.db
 .idea/
 *.sln.iml
 
+Assets/Plugins/UnityEditorDarkMode.meta
+Assets/Plugins/UnityEditorDarkMode/README.txt
+Assets/Plugins/UnityEditorDarkMode/README.txt.meta
+Assets/Plugins/UnityEditorDarkMode/UnityEditorDarkMode.dll.ini
+Assets/Plugins/UnityEditorDarkMode/UnityEditorDarkMode.dll.ini.meta
+Assets/Plugins/UnityEditorDarkMode/UnityEditorDarkMode.dll.meta
