@@ -18,39 +18,6 @@
             ],
             "bindings": [
                 {
-                    "name": "UpDown_arrow",
-                    "id": "93c276b7-1c10-432c-b01a-5175f74dd453",
-                    "path": "2DVector",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "UPDOWN",
-                    "isComposite": true,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "up",
-                    "id": "f1119552-20e4-4210-9504-c4b40e41c7dc",
-                    "path": "<Keyboard>/upArrow",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "UPDOWN",
-                    "isComposite": false,
-                    "isPartOfComposite": true
-                },
-                {
-                    "name": "down",
-                    "id": "1f4d92a0-2621-4b7c-a046-fe2d6c2b3361",
-                    "path": "<Keyboard>/downArrow",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "UPDOWN",
-                    "isComposite": false,
-                    "isPartOfComposite": true
-                },
-                {
                     "name": "WS",
                     "id": "6e63489a-4f4c-4e04-b7f8-2c1ec6126400",
                     "path": "2DVector",
@@ -76,6 +43,56 @@
                     "name": "down",
                     "id": "6346a8fa-8419-4410-911c-7094169b24c3",
                     "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "UPDOWN",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        },
+        {
+            "name": "Player2",
+            "id": "53f25332-868a-442f-b101-f8d7728fb6cb",
+            "actions": [
+                {
+                    "name": "UPDOWN",
+                    "type": "Value",
+                    "id": "283d79a6-4c4e-4ffa-9599-1b22b4243b75",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "UpDown_arrow",
+                    "id": "5540de52-cf00-4e75-bb1d-aab3eb5ef19e",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "UPDOWN",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "3b984142-cf3e-424c-8213-9966c6a1128a",
+                    "path": "<Keyboard>/upArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "UPDOWN",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "0a2cc2e1-b7fe-4ad6-9b9b-262db99a71b6",
+                    "path": "<Keyboard>/downArrow",
                     "interactions": "",
                     "processors": "",
                     "groups": "",

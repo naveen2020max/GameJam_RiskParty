@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class PlayerPaddleData : MonoBehaviour
+public class PlayerPaddleData
 {
     public PlayerInputHandler InputHandler;
     public PossessablePaddle Paddle;
