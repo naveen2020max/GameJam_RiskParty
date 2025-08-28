@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "D:\\UnityFolder\\Projects\\RiskParty_GameJamProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4C8A7012-F796-15E3-3D8A-DD2F436D0B6E}|Assembly-CSharp.csproj|d:\\unityfolder\\projects\\riskparty_gamejamproject\\assets\\_project\\scripts\\networkmanagertempui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C8A7012-F796-15E3-3D8A-DD2F436D0B6E}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\networkmanagertempui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4C8A7012-F796-15E3-3D8A-DD2F436D0B6E}|Assembly-CSharp.csproj|d:\\unityfolder\\projects\\riskparty_gamejamproject\\assets\\_project\\scripts\\possessablepaddle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C8A7012-F796-15E3-3D8A-DD2F436D0B6E}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\possessablepaddle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4C8A7012-F796-15E3-3D8A-DD2F436D0B6E}|Assembly-CSharp.csproj|d:\\unityfolder\\projects\\riskparty_gamejamproject\\assets\\_project\\scripts\\objectmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C8A7012-F796-15E3-3D8A-DD2F436D0B6E}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\objectmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4C8A7012-F796-15E3-3D8A-DD2F436D0B6E}|Assembly-CSharp.csproj|d:\\unityfolder\\projects\\riskparty_gamejamproject\\assets\\_project\\scripts\\playerpaddledata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C8A7012-F796-15E3-3D8A-DD2F436D0B6E}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\playerpaddledata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C8A7012-F796-15E3-3D8A-DD2F436D0B6E}|Assembly-CSharp.csproj|d:\\unityfolder\\projects\\riskparty_gamejamproject\\assets\\_project\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C8A7012-F796-15E3-3D8A-DD2F436D0B6E}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C8A7012-F796-15E3-3D8A-DD2F436D0B6E}|Assembly-CSharp.csproj|d:\\unityfolder\\projects\\riskparty_gamejamproject\\assets\\_project\\scripts\\possessionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C8A7012-F796-15E3-3D8A-DD2F436D0B6E}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\possessionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UnityFolder\\Projects\\RiskParty_GameJamProject\\Assets\\_Project\\Scripts\\NetworkManagerTempUI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\_Project\\Scripts\\NetworkManagerTempUI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UnityFolder\\Projects\\RiskParty_GameJamProject\\Assets\\_Project\\Scripts\\ObjectMovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\_Project\\Scripts\\ObjectMovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,19 +39,69 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "NetworkManagerTempUI.cs",
-              "DocumentMoniker": "D:\\UnityFolder\\Projects\\RiskParty_GameJamProject\\Assets\\_Project\\Scripts\\NetworkManagerTempUI.cs",
-              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\NetworkManagerTempUI.cs",
-              "ToolTip": "D:\\UnityFolder\\Projects\\RiskParty_GameJamProject\\Assets\\_Project\\Scripts\\NetworkManagerTempUI.cs",
-              "RelativeToolTip": "Assets\\_Project\\Scripts\\NetworkManagerTempUI.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAA3AAAAAAAAAA==",
+              "Title": "PossessablePaddle.cs",
+              "DocumentMoniker": "D:\\UnityFolder\\Projects\\RiskParty_GameJamProject\\Assets\\_Project\\Scripts\\PossessablePaddle.cs",
+              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\PossessablePaddle.cs",
+              "ToolTip": "D:\\UnityFolder\\Projects\\RiskParty_GameJamProject\\Assets\\_Project\\Scripts\\PossessablePaddle.cs",
+              "RelativeToolTip": "Assets\\_Project\\Scripts\\PossessablePaddle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T19:06:53.977Z",
+              "WhenOpened": "2025-08-28T18:05:57.136Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "PlayerPaddleData.cs",
+              "DocumentMoniker": "D:\\UnityFolder\\Projects\\RiskParty_GameJamProject\\Assets\\_Project\\Scripts\\PlayerPaddleData.cs",
+              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\PlayerPaddleData.cs",
+              "ToolTip": "D:\\UnityFolder\\Projects\\RiskParty_GameJamProject\\Assets\\_Project\\Scripts\\PlayerPaddleData.cs",
+              "RelativeToolTip": "Assets\\_Project\\Scripts\\PlayerPaddleData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T18:05:51.536Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "D:\\UnityFolder\\Projects\\RiskParty_GameJamProject\\Assets\\_Project\\Scripts\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\GameManager.cs",
+              "ToolTip": "D:\\UnityFolder\\Projects\\RiskParty_GameJamProject\\Assets\\_Project\\Scripts\\GameManager.cs",
+              "RelativeToolTip": "Assets\\_Project\\Scripts\\GameManager.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T18:02:14.184Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PossessionHandler.cs",
+              "DocumentMoniker": "D:\\UnityFolder\\Projects\\RiskParty_GameJamProject\\Assets\\_Project\\Scripts\\PossessionHandler.cs",
+              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\PossessionHandler.cs",
+              "ToolTip": "D:\\UnityFolder\\Projects\\RiskParty_GameJamProject\\Assets\\_Project\\Scripts\\PossessionHandler.cs",
+              "RelativeToolTip": "Assets\\_Project\\Scripts\\PossessionHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T18:01:36.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NetworkManagerTempUI.cs",
+              "DocumentMoniker": "D:\\UnityFolder\\Projects\\RiskParty_GameJamProject\\Assets\\_Project\\Scripts\\NetworkManagerTempUI.cs",
+              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\NetworkManagerTempUI.cs",
+              "ToolTip": "D:\\UnityFolder\\Projects\\RiskParty_GameJamProject\\Assets\\_Project\\Scripts\\NetworkManagerTempUI.cs",
+              "RelativeToolTip": "Assets\\_Project\\Scripts\\NetworkManagerTempUI.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T19:06:53.977Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "ObjectMovement.cs",
               "DocumentMoniker": "D:\\UnityFolder\\Projects\\RiskParty_GameJamProject\\Assets\\_Project\\Scripts\\ObjectMovement.cs",
               "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\ObjectMovement.cs",
@@ -43,8 +109,7 @@
               "RelativeToolTip": "Assets\\_Project\\Scripts\\ObjectMovement.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T18:43:39.559Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-26T18:43:39.559Z"
             }
           ]
         }

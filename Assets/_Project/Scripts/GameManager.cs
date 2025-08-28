@@ -7,12 +7,17 @@ public class GameManager : MonoBehaviour
 
     public static GameManager Instance;
 
+    [SerializeField,Min(0f)]
+    Vector2 arenaExtents = new Vector2(10f, 10f);
+    public Ball Ball;
+
     private PlayerPaddleData[] playerPaddleData;
 
     void Awake()
     {
         Instance = this;
         playerPaddleData = new PlayerPaddleData[2] { new PlayerPaddleData(), new PlayerPaddleData()};
+        Ball.StartNewGame();
     }
 
     public void OnPlayerJoin(PlayerInputHandler playerInputHandler)
@@ -38,5 +43,31 @@ public class GameManager : MonoBehaviour
                 PossessionHandler.UnAssignPlayerInput(item.Paddle);
             }
         }
-    }    
+    }
+
+    private void Update()
+    {
+        Ball.Move();
+        BounceYIfNeeded();
+        BounceXIfNeeded();
+        Ball.UpdateVisualization();
+    }
+
+    void BounceYIfNeeded()
+    {
+        float yExtents = arenaExtents.y - Ball.Extents;
+        if(Ball.Position.y < -yExtents)
+            Ball.BounceY(-yExtents);
+        else if (Ball.Position.y > yExtents)
+            Ball.BounceY(yExtents);
+    }
+
+    void BounceXIfNeeded()
+    {
+        float xExtents = arenaExtents.x - Ball.Extents;
+        if (Ball.Position.x < -xExtents)
+            Ball.BounceX(-xExtents);
+        else if (Ball.Position.x > xExtents)
+            Ball.BounceX(xExtents);
+    }
 }

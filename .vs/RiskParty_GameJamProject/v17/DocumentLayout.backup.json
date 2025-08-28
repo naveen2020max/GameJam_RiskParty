@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\UnityFolder\\Projects\\RiskParty_GameJamProject\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4C8A7012-F796-15E3-3D8A-DD2F436D0B6E}|Assembly-CSharp.csproj|d:\\unityfolder\\projects\\riskparty_gamejamproject\\assets\\_project\\scripts\\networkmanagertempui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C8A7012-F796-15E3-3D8A-DD2F436D0B6E}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\networkmanagertempui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4C8A7012-F796-15E3-3D8A-DD2F436D0B6E}|Assembly-CSharp.csproj|d:\\unityfolder\\projects\\riskparty_gamejamproject\\assets\\_project\\scripts\\objectmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4C8A7012-F796-15E3-3D8A-DD2F436D0B6E}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\objectmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -19,6 +23,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "NetworkManagerTempUI.cs",
+              "DocumentMoniker": "D:\\UnityFolder\\Projects\\RiskParty_GameJamProject\\Assets\\_Project\\Scripts\\NetworkManagerTempUI.cs",
+              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\NetworkManagerTempUI.cs",
+              "ToolTip": "D:\\UnityFolder\\Projects\\RiskParty_GameJamProject\\Assets\\_Project\\Scripts\\NetworkManagerTempUI.cs",
+              "RelativeToolTip": "Assets\\_Project\\Scripts\\NetworkManagerTempUI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T19:06:53.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "ObjectMovement.cs",
               "DocumentMoniker": "D:\\UnityFolder\\Projects\\RiskParty_GameJamProject\\Assets\\_Project\\Scripts\\ObjectMovement.cs",
               "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\ObjectMovement.cs",
