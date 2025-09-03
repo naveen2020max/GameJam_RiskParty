@@ -11,6 +11,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Project/Scene/multiplayerTesting.unity
     guid: 38927ca8a2ce7784d9ad6477c2967d6b
+  - enabled: 1
+    path: Assets/_Project/MultiplayerPingPong/MultiplayerPingpong.unity
+    guid: 0a6d50a140db26c42b48cd3570112102
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0

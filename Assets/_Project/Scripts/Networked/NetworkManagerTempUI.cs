@@ -2,39 +2,42 @@ using UnityEngine;
 using Unity.Netcode;
 using UnityEngine.UI;
 
-public class NetworkManagerTempUI : MonoBehaviour
+namespace BAF.Network
 {
-    [SerializeField] Button HostBtn, JoinBtn;
-    [SerializeField] GameObject panel;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Awake()
+    public class NetworkManagerTempUI : MonoBehaviour
     {
-        HostBtn.onClick.AddListener(() =>
+        [SerializeField] Button HostBtn, JoinBtn;
+        [SerializeField] GameObject panel;
+        // Start is called once before the first execution of Update after the MonoBehaviour is created
+        void Awake()
         {
-            if (NetworkManager.Singleton.StartHost())
+            HostBtn.onClick.AddListener(() =>
             {
-                Debug.Log("Host started");
-                panel.SetActive(false);
-            }
-            else
-            {
-                Debug.Log("Failed to start host");
-            }
-        });
+                if (NetworkManager.Singleton.StartHost())
+                {
+                    Debug.Log("Host started");
+                    panel.SetActive(false);
+                }
+                else
+                {
+                    Debug.Log("Failed to start host");
+                }
+            });
 
-        JoinBtn.onClick.AddListener(() =>
-        {
-            if (NetworkManager.Singleton.StartClient())
+            JoinBtn.onClick.AddListener(() =>
             {
-                Debug.Log("Client started");
-                panel.SetActive(false);
-            }
-            else
-            {
-                Debug.Log("Failed to start client");
-            }
-        });
-    }
+                if (NetworkManager.Singleton.StartClient())
+                {
+                    Debug.Log("Client started");
+                    panel.SetActive(false);
+                }
+                else
+                {
+                    Debug.Log("Failed to start client");
+                }
+            });
+        }
 
-    
+
+    } 
 }

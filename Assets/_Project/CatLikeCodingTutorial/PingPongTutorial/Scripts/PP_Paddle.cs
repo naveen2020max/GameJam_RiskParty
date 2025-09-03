@@ -36,6 +36,8 @@ namespace CatlikeCoding.PingPong
             goalMaterial,
             scoreMaterial;
 
+        public bool IsAI { get => isAI; set => isAI = value; }
+
         void Awake()
         {
             paddleMaterial = GetComponent<Renderer>().material;
@@ -54,10 +56,22 @@ namespace CatlikeCoding.PingPong
         public void Move(float target, float arenaExtents)
         {
             Vector3 p = transform.localPosition;
-            p.x = isAI ? AdjustByAI(p.x, target) : AdjustByPlayer(p.x);
+            
+            Move(target, arenaExtents, AdjustByPlayer(p.x));
+        }
+
+        public void Move(float target, float arenaExtents, float moveInput)
+        {
+            Vector3 p = transform.localPosition;
+            p.x = isAI ? AdjustByAI(p.x, target) : AdjustPlayerInput(p.x, moveInput);
             float limit = arenaExtents - extents;
             p.x = Mathf.Clamp(p.x, -limit, limit);
             transform.localPosition = p;
+        }
+
+        float AdjustPlayerInput(float x, float moveinput)
+        {
+            return x + moveinput * speed *Time.deltaTime;
         }
 
         float AdjustByAI(float x, float target)
@@ -72,10 +86,10 @@ namespace CatlikeCoding.PingPong
         {
             bool goright = Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D);
             bool goleft = Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A);
-            if(goright && !goleft)
-                return x + speed * Time.deltaTime;
+            if (goright && !goleft)
+                return 1;
             if (goleft && !goright)
-                return x - speed * Time.deltaTime;
+                return -1;
             return x;
         }
 

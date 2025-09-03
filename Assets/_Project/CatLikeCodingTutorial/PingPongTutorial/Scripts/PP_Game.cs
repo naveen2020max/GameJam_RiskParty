@@ -28,6 +28,8 @@ namespace CatlikeCoding.PingPong
 
         float countdownUntilNewGame;
 
+        public Vector2 ArenaExtents => arenaExtents;
+
 
         void Awake() => countdownUntilNewGame = newgameDelay;
 
